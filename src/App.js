@@ -6,11 +6,12 @@ import AboutPage from "./pages/about/index.jsx";
 import CasesPage from "./pages/cases/index.jsx";
 import ContactsPage from "./pages/contacts/index.jsx";
 import ServicesPage from "./pages/services/index.jsx";
+import { pagesobj } from "./utils/utils.js";
 
 function App() {
   return (
     <div className="mainContainer">
-      <Header />
+      <Header pagesobj={pagesobj} />
       <MainPage />
       {/*  <AboutPage />
       <CasesPage />

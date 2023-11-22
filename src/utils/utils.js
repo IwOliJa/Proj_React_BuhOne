@@ -13,3 +13,11 @@ export const data2 = [
   { number: 3, title: "3.Бухгалтерское обслуживание" },
   { number: 4, title: "4.Бухгалтерское обслуживание" },
 ];
+
+export const pagesobj = [
+  { page: "главная" },
+  { page: "услуги" },
+  { page: "кейсы" },
+  { page: "о компании" },
+  { page: "о контакты" },
+];

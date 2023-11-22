@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 import logo from "../../assets/images/nav_logo.svg";
 
-function Header() {
+function Header(props) {
   return (
     <header className={styles.header}>
       <div className={styles.rectangle}></div>
@@ -13,11 +13,16 @@ function Header() {
           <li>BuhOne</li>
         </ul>
         <ul className={styles.nav_menu}>
-          <li>главная</li>
+          {
+            props.pagesobj.map((el) => {
+              return <li key={Math.random()}>{el.page}</li>;
+            })
+            /* <li>главная</li>
           <li>услуги</li>
           <li>кейсы</li>
           <li>о компании</li>
-          <li>контакты</li>
+          <li>контакты</li> */
+          }
         </ul>
       </nav>
     </header>
