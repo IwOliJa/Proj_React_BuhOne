@@ -1,7 +1,7 @@
-import "./style.css";
+import styles from "./index.module.css";
 function Card(props) {
   return (
-    <div className="service_card">
+    <div className={styles.service_card}>
       <p>{props.title}</p>
     </div>
   );

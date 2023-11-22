@@ -1,0 +1,38 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Lato', sans-serif; */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle {
+  width: 51px;
+  height: 118px;
+  background-color: #d9d9d9;
+  margin-right: 1.5rem;
+}
+.header_nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #222222ba;
+}
+
+.buhOne {
+  display: flex;
+  gap: 2rem;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  color: #005fa3;
+}

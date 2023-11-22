@@ -1,6 +1,6 @@
 import CardContent from "./cardContent";
 import ServiceHeading from "./heading";
-import "./style.css";
+import styles from "./index.module.css";
 
 function ServiceBlock() {
   return (

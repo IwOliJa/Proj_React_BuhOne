@@ -1,0 +1,6 @@
+.slider_container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-left: 21%;
+}

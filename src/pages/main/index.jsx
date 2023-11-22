@@ -1,25 +1,23 @@
-import Header from "../../components/header";
+// import Header from "../../components/header";
 import FirstBlock from "../../components/firstBlock";
 import ServiceBlock from "../../components/servicesBlock";
 import AboutBlock from "../../components/aboutBlock";
 import ClientsBlock from "../../components/clientsBlock";
 import Feedback from "../../components/feedbackBlock";
-import Footer from "../../components/footer";
+// import Footer from "../../components/footer";
 import Contact from "../../components/contactBlock";
 
-function Main() {
+function MainPage() {
   return (
-    <div>
-      <Header />
+    <main>
       <FirstBlock />
       <ServiceBlock />
       <AboutBlock />
       <ClientsBlock />
       <Feedback />
       <Contact />
-      <Footer />
-    </div>
+    </main>
   );
 }
 
-export default Main;
+export default MainPage;

@@ -1,7 +1,6 @@
 import CardContent from "./cardContent";
 import Description from "./description";
-
-import "./style.css";
+import styles from "./index.module.css";
 
 function AboutBlock() {
   return (

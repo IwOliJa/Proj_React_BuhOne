@@ -1,4 +1,6 @@
 function Card(props) {
+  // console.log(props);
+  // let { number, title, link } = props;
   return (
     <div className="case_card">
       <p>{props.number}</p>

@@ -1,7 +1,8 @@
 import FeedbackDescription from "./description";
 import FeedbackHeading from "./heading";
 import SliderButton from "./sliderButtons";
-import "./style.css";
+import styles from "./index.module.css";
+// import "./style.css";
 
 function Feedback() {
   return (

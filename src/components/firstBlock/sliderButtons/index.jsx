@@ -1,6 +1,8 @@
+import styles from "./index.module.css";
+
 function SliderButton() {
   return (
-    <div>
+    <div className={styles.slider_container}>
       <div>
         <span> slBt </span>
         <span> slBt </span>

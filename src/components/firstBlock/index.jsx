@@ -1,10 +1,11 @@
-import "./index.css";
+import styles from "./index.module.css";
+// import "./index.css";
 import SliderButton from "./sliderButtons";
 import MainTitle from "./title";
 
 function FirstBlock() {
   return (
-    <div className="div_wrapper">
+    <div className={styles.div_wrapper}>
       <MainTitle />
       <SliderButton />
     </div>

@@ -1,16 +1,18 @@
-// import styles from "./index.module.css";
+import styles from "./index.module.css";
+import logo from "../../assets/images/nav_logo.svg";
+
 function Header() {
   return (
-    <header className="header">
-      <div>rectangle</div>
-      <nav className="header_nav ">
-        <ul className="buhOne">
+    <header className={styles.header}>
+      <div className={styles.rectangle}></div>
+      <nav className={styles.header_nav}>
+        <ul className={styles.buhOne}>
           <li>
-            <img src="#" alt="buhOne-logo" />
-            <h1>BuhOne</h1>
+            <img src={logo} alt="buhOne-logo" />
           </li>
+          <li>BuhOne</li>
         </ul>
-        <ul className="nav_menu">
+        <ul className={styles.nav_menu}>
           <li>главная</li>
           <li>услуги</li>
           <li>кейсы</li>
